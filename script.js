@@ -1,5 +1,5 @@
 function getNumbers() {
-    const num1 = parseFloat(document.getElementById('userIn').value);
+    const num1 = parseFloat(document.getElementById('num1').value);
     const num2 = parseFloat(document.getElementById('num2').value);
     return { num1, num2 };
 }
@@ -55,45 +55,4 @@ document.getElementById('divide').addEventListener('click', () => {
 
 document.getElementById('clear').addEventListener('click', () => {
     document.getElementById('result').textContent = `Result: `;
-});
-
-// Number buttons
-document.getElementById('one').addEventListener('click', () => {
-    document.getElementById('userIn').append(1);
-});
-
-document.getElementById('two').addEventListener('click', () => {
-    document.getElementById('userIn').append(2);
-});
-
-document.getElementById('three').addEventListener('click', () => {
-    document.getElementById('userIn').append(3);
-});
-
-document.getElementById('four').addEventListener('click', () => {
-    document.getElementById('userIn').append(4);
-});
-
-document.getElementById('five').addEventListener('click', () => {
-    document.getElementById('userIn').append(5);
-});
-
-document.getElementById('six').addEventListener('click', () => {
-    document.getElementById('userIn').append(6);
-});
-
-document.getElementById('seven').addEventListener('click', () => {
-    document.getElementById('userIn').append(7);
-});
-
-document.getElementById('eight').addEventListener('click', () => {
-    document.getElementById('userIn').append(8);
-});
-
-document.getElementById('nine').addEventListener('click', () => {
-    document.getElementById('userIn').append(9);
-});
-
-document.getElementById('zero').addEventListener('click', () => {
-    document.getElementById('userIn').append(0);
 });
